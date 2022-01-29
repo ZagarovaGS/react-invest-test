@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgb(121, 162, 182);
+  color: rgb(7, 51, 148);
+}
+.header-img__picture {
+  height: 100px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h1 {
+  font-size: 40px;
+  padding-left: 7%;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu a {
+  margin: 10px;
+}
