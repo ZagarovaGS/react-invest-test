@@ -14,7 +14,9 @@ export default function Form() {
 
   const handleSaveButton = (event) => {
     event.preventDefault();
-    localStorage.setItem('text', text);
+    if (text) {
+      localStorage.setItem('text', text);
+    }
     localStorage.setItem('currency', currency);
   };
 
