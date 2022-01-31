@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  background-color: bisque;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(121, 162, 182);
+  color: rgb(7, 51, 148);
+}
+.header-img__picture {
+  height: 100px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h1 {
+  font-size: 40px;
+  padding-left: 30%;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu a {
+  margin: 10px;
+}
+
+.form {
+  background-color: rgb(6, 63, 14);
+  text-align: center;
+  font-size: 30px;
+  margin: 10% 20%;
+  padding-bottom: 20px;
+  border-radius: 15px;
+}
+.currency {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  color: white;
+  padding: 2px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button_save {
+  background-color: green;
+}
+.button_load {
+  background-color: rgb(190, 160, 102);
+}
+.currency-selection {
+  margin: 10px 0;
+  color: wheat;
+}
+h2 {
+  color: yellow;
+  padding-top: 20px;
+}
+.text {
+  height: 30px;
+  background-color: wheat;
+  border-radius: 8px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(121, 162, 182);
+  color: rgb(7, 51, 148);
+  font-size: 20px;
+}
+a {
+  color: rgb(13, 51, 3);
+  text-decoration: none;
+  font-weight: 600;
+}
